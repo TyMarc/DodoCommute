@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Wake &amp; Commute</string>
+    <string name="gms_error_title">Google Play Services required</string>
+    <string name="gms_error_desc">You need to have the Google Play services to use this app. Please install/update them.</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_desc"></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="destination">Destination</string>
+    <string name="home_desc">Set this location as your starting position?</string>
+    <string name="destination_desc">Set this location as your destination?</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="done">Done</string>
+    <string name="title_live">First, from where do you leave?</string>
+    <string name="title_go">Then, where do you go?</string>
+    <string name="title_hours">At what time do you need to be there?</string>
+    <string name="title_routine">How much time do you need to prepare?</string>
+    <string name="origin">Origin</string>
+    <string name="arrival_time">Arrival time</string>
+    <string name="routine_time">Routine time</string>
+    <string name="alarm_hint">Alarm name</string>
+    <string name="title_location">Select a new location</string>
+</resources>
