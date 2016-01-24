@@ -44,12 +44,18 @@ public class RoutineFragment extends Fragment implements View.OnClickListener, T
             timePicker.setCurrentHour(((WizardActivity) getActivity()).getAlarmProfile().getRoutineHour());
         } else {
             timePicker.setCurrentHour(0);
+            if(getActivity() instanceof WizardActivity) {
+                ((WizardActivity) getActivity()).getAlarmProfile().setRoutineHour(0);
+            }
         }
 
         if(getActivity() instanceof WizardActivity && ((WizardActivity) getActivity()).getAlarmProfile().getRoutineMinute() != -1) {
             timePicker.setCurrentMinute(((WizardActivity) getActivity()).getAlarmProfile().getRoutineMinute());
         } else {
             timePicker.setCurrentMinute(45);
+            if(getActivity() instanceof WizardActivity) {
+                ((WizardActivity) getActivity()).getAlarmProfile().setRoutineMinute(45);
+            }
         }
         timePicker.setOnTimeChangedListener(this);
         return v;

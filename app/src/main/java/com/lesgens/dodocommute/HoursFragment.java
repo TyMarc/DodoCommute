@@ -45,12 +45,18 @@ public class HoursFragment extends Fragment implements View.OnClickListener, Tim
             timePicker.setCurrentHour(((WizardActivity) getActivity()).getAlarmProfile().getArrivalHour());
         } else {
             timePicker.setCurrentHour(9);
+            if(getActivity() instanceof WizardActivity) {
+                ((WizardActivity) getActivity()).getAlarmProfile().setArrivalHour(9);
+            }
         }
 
         if(getActivity() instanceof WizardActivity && ((WizardActivity) getActivity()).getAlarmProfile().getArrivalMinute() != -1) {
             timePicker.setCurrentMinute(((WizardActivity) getActivity()).getAlarmProfile().getArrivalMinute());
         } else {
             timePicker.setCurrentMinute(0);
+            if(getActivity() instanceof WizardActivity) {
+                ((WizardActivity) getActivity()).getAlarmProfile().setArrivalMinute(0);
+            }
         }
 
         timePicker.setIs24HourView(true);
