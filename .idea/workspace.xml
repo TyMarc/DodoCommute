@@ -78,8 +78,20 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+              <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WizardActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/WizardActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5289855">
+              <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,10 +108,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlarmsAdapter.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AlarmsAdapter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/adapters/AlarmsAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.1594203">
+            <state vertical-scroll-proportion="0.0">
               <caret line="82" column="73" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -1802,7 +1814,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/WhereYouLiveFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/WhereYouGoFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/WizardActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/adapters/LocationsAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/alarms.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/main_fragment.xml" />
@@ -1812,7 +1823,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/location_item.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/ConfirmAlarmFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/services/AlarmBootReceiver.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/model/Location.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/AddLocationActivity.java" />
@@ -1821,6 +1831,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/LocationsFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/adapters/AlarmsAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/WizardActivity.java" />
       </list>
     </option>
   </component>
@@ -2040,7 +2052,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="mai&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/main.xml&#10;locat&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/LocationsFragment.java&#10;where&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/WhereYouGoFragment.java&#10;alarmsfra&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/AlarmsFragment.java&#10;alarmpr&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/model/AlarmProfile.java&#10;data&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/db/DatabaseHelper.java&#10;androi&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/AndroidManifest.xml&#10;alar&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/services/AlarmBootReceiver.java&#10;adapter&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/adapters/AlarmsAdapter.java&#10;utils&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/utils/Utils.java&#10;confirm&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/ConfirmAlarmFragment.java&#10;loca&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/location_item.xml&#10;lis&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/list_view.xml&#10;locatio&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/LocationsFragment.java&#10;alarms&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/alarms.xml&#10;wiz&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/WizardActivity.java&#10;conf&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/ConfirmAlarmFragment.java&#10;colors&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/values/colors.xml&#10;pre&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/utils/PreferencesController.java&#10;wh&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/WhereYouLiveFragment.java&#10;util&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/utils/Utils.java&#10;android&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/AndroidManifest.xml&#10;an&#9;FILE&#9;file:///Users/marc-antoinehinse/android-sdks/sources/android-23/android/app/AlarmManager.java&#10;whe&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/WhereYouLiveFragment.java&#10;styles&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/values/styles.xml&#10;colo&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/values/colors.xml&#10;con&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/confirm.xml&#10;routin&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/routine.xml&#10;hours&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/hours.xml&#10;gen&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/drawable/gen_bt_sel.xml&#10;roun&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/drawable/rounded_edittext.xml&#10;item&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/alarm_item.xml&#10;col&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/values/colors.xml&#10;confi&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/confirm.xml&#10;rout&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/routine.xml&#10;wher&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/where_you_live.xml&#10;wel&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/welcome.xml&#10;dire&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/utils/DirectionsUtils.java&#10;adapt&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/adapters/AlarmsAdapter.java&#10;alarmsac&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/AlarmsActivity.java&#10;rou&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/RoutineFragment.java&#10;confir&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/confirm.xml&#10;alarmPr&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/model/AlarmProfile.java&#10;alarmsada&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/adapters/AlarmsAdapter.java&#10;ala&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/alarms.xml&#10;w&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/WhereYouLiveFragment.java&#10;wizar&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/WizardActivity.java&#10;datab&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/db/DatabaseHelper.java&#10;calendarimpl&#9;PSI&#9;JAVA://sun.util.locale.provider.CalendarProviderImpl&#10;wizardac&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/WizardActivity.java" />
+    <property name="SearchEverywhereHistoryKey" value="wiza&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/WizardActivity.java&#10;an&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/AndroidManifest.xml&#10;mai&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/main.xml&#10;locat&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/LocationsFragment.java&#10;where&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/WhereYouGoFragment.java&#10;alarmsfra&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/AlarmsFragment.java&#10;alarmpr&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/model/AlarmProfile.java&#10;data&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/db/DatabaseHelper.java&#10;androi&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/AndroidManifest.xml&#10;alar&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/services/AlarmBootReceiver.java&#10;adapter&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/adapters/AlarmsAdapter.java&#10;utils&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/utils/Utils.java&#10;confirm&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/ConfirmAlarmFragment.java&#10;loca&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/location_item.xml&#10;lis&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/list_view.xml&#10;locatio&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/LocationsFragment.java&#10;alarms&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/alarms.xml&#10;wiz&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/WizardActivity.java&#10;conf&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/ConfirmAlarmFragment.java&#10;colors&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/values/colors.xml&#10;pre&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/utils/PreferencesController.java&#10;wh&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/WhereYouLiveFragment.java&#10;util&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/utils/Utils.java&#10;android&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/AndroidManifest.xml&#10;whe&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/WhereYouLiveFragment.java&#10;styles&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/values/styles.xml&#10;colo&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/values/colors.xml&#10;con&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/confirm.xml&#10;routin&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/routine.xml&#10;hours&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/hours.xml&#10;gen&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/drawable/gen_bt_sel.xml&#10;roun&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/drawable/rounded_edittext.xml&#10;item&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/alarm_item.xml&#10;col&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/values/colors.xml&#10;confi&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/confirm.xml&#10;rout&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/routine.xml&#10;wher&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/where_you_live.xml&#10;wel&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/welcome.xml&#10;dire&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/utils/DirectionsUtils.java&#10;adapt&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/adapters/AlarmsAdapter.java&#10;alarmsac&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/AlarmsActivity.java&#10;rou&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/RoutineFragment.java&#10;confir&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/confirm.xml&#10;alarmPr&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/model/AlarmProfile.java&#10;alarmsada&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/adapters/AlarmsAdapter.java&#10;ala&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/res/layout/alarms.xml&#10;w&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/WhereYouLiveFragment.java&#10;wizar&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/WizardActivity.java&#10;datab&#9;FILE&#9;file:///Users/marc-antoinehinse/DodoCommute/app/src/main/java/com/lesgens/dodocommute/db/DatabaseHelper.java&#10;calendarimpl&#9;PSI&#9;JAVA://sun.util.locale.provider.CalendarProviderImpl" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="08a4f8470de4ac0c" />
     <property name="FullScreen" value="false" />
   </component>
@@ -2605,16 +2617,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/WizardActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5652174">
-          <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/location_item.xml">
       <provider editor-type-id="android-designer">
         <state />
@@ -2682,14 +2684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.115942">
           <caret line="607" column="28" selection-start-line="607" selection-start-column="28" selection-end-line="607" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -2809,12 +2803,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/adapters/AlarmsAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.1594203">
+        <state vertical-scroll-proportion="0.0">
           <caret line="82" column="73" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2595#4132#0" expanded="true" />
             <element signature="e#4131#4132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/lesgens/dodocommute/WizardActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5289855">
+          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

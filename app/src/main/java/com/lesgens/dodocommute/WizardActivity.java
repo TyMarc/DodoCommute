@@ -33,7 +33,7 @@ public class WizardActivity extends AppCompatActivity {
 
     public static final void show(final Context context) {
         Intent i = new Intent(context, WizardActivity.class);
-        i.putExtra("isFirstTime", true);//PreferencesController.isFirstUse(context));
+        i.putExtra("isFirstTime", PreferencesController.isFirstUse(context));
         context.startActivity(i);
     }
 
