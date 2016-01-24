@@ -1,6 +1,10 @@
 package com.lesgens.dodocommute.adapters;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Context;
+import android.content.Intent;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +17,7 @@ import android.widget.TextView;
 import com.lesgens.dodocommute.R;
 import com.lesgens.dodocommute.db.DatabaseHelper;
 import com.lesgens.dodocommute.model.AlarmProfile;
+import com.lesgens.dodocommute.services.AlarmBootReceiver;
 import com.lesgens.dodocommute.utils.DirectionsUtils;
 import com.lesgens.dodocommute.utils.Utils;
 
@@ -80,6 +85,14 @@ public class AlarmsAdapter extends ArrayAdapter<AlarmProfile> {
                         public void onSuccess(AlarmProfile alarmProfile) {
                             DatabaseHelper.getInstance().addOrUpdateAlarm(ap);
                             holder.timeToWake.setText(ap.getTimeToWakeUpAsText());
+                            AlarmManager alarmMgr = (AlarmManager) getContext().getSystemService(Context.ALARM_SERVICE);
+                            Intent i = new Intent(getContext(), AlarmBootReceiver.class);
+
+                            PendingIntent alarmIntent = PendingIntent.getBroadcast(getContext(), 0, i, 0);
+                            alarmMgr.setInexactRepeating(AlarmManager.RTC_WAKEUP, ap.getTimeToWakeUp() * 1000,
+                                    AlarmManager.INTERVAL_DAY, alarmIntent);
+                            Log.i("AlarmsAdapter", "Alarm set for=" + ap.getTimeToWakeUpAsText());
+
                         }
 
                         @Override

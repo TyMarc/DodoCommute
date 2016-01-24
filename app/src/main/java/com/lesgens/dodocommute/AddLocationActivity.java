@@ -25,6 +25,7 @@ import com.google.android.gms.maps.model.MarkerOptions;
 import com.lesgens.dodocommute.adapters.AlarmsAdapter;
 import com.lesgens.dodocommute.db.DatabaseHelper;
 import com.lesgens.dodocommute.model.AlarmProfile;
+import com.lesgens.dodocommute.model.Location;
 import com.lesgens.dodocommute.utils.DirectionsUtils;
 import com.lesgens.dodocommute.utils.PreferencesController;
 import com.lesgens.dodocommute.utils.Utils;
@@ -98,7 +99,7 @@ public class AddLocationActivity extends AppCompatActivity implements OnMapReady
                 .setPositiveButton(R.string.dialog_ok, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        DatabaseHelper.getInstance().addPlace(input.getText().toString(), latLng);
+                        DatabaseHelper.getInstance().addPlace(new Location(latLng, input.getText().toString()));
                         finish();
                     }
                 })

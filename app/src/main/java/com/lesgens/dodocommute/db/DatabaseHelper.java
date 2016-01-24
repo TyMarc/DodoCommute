@@ -51,15 +51,16 @@ public class DatabaseHelper extends SQLiteOpenHelper
         onCreate(db);
     }
 
-    public void addPlace(final String locationName, final LatLng location) {
+    public void addPlace(final Location location) {
         SQLiteDatabase db = this.getWritableDatabase();
 
         ContentValues cv = new ContentValues();
-        cv.put("location_name", locationName);
-        cv.put("lat", location.latitude);
-        cv.put("lon", location.longitude);
+        cv.put("location_name", location.getName());
+        cv.put("lat", location.getLocation().latitude);
+        cv.put("lon", location.getLocation().longitude);
 
-        db.insert("places", null, cv);
+        final long id = db.insert("places", null, cv);
+        location.setId(id);
     }
 
     public void addOrUpdateAlarm(AlarmProfile ap){
@@ -89,20 +90,6 @@ public class DatabaseHelper extends SQLiteOpenHelper
             Log.i(TAG, "Succesfully updated alarm");
         }
 
-    }
-
-    public boolean isAlarmExists(final long id){
-        SQLiteDatabase db = this.getReadableDatabase();
-
-        Cursor c = db.rawQuery("SELECT COUNT(*) FROM alarms WHERE id = ?;", new String[]{String.valueOf(id)} );
-
-        while(c.moveToNext()){
-            return c.getInt(0) > 0;
-        }
-
-        c.close();
-
-        return false;
     }
 
     public AlarmProfile getAlarmById(final long id){
@@ -197,16 +184,30 @@ public class DatabaseHelper extends SQLiteOpenHelper
 
         while(c.moveToNext()){
             location = new Location();
+            long id = c.getLong(0);
             String name = c.getString(1);
             String lat = c.getString(2);
             String lon = c.getString(3);
             location.setLocationName(name);
             location.setLocation(new LatLng(Double.parseDouble(lat), Double.parseDouble(lon)));
+            location.setId(id);
             locations.add(location);
         }
 
         c.close();
 
         return locations;
+    }
+
+    public void deletePlaceById(final long id) {
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        db.delete("places", "id=?", new String[]{String.valueOf(id)});
+    }
+
+    public void deleteAlarmById(final long id) {
+        SQLiteDatabase db = this.getWritableDatabase();
+
+        db.delete("alarms", "id=?", new String[]{String.valueOf(id)});
     }
 }

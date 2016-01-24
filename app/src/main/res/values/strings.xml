@@ -24,4 +24,7 @@
     <string name="routine_time">Routine time</string>
     <string name="alarm_hint">Alarm name</string>
     <string name="title_location">Select a new location</string>
+    <string name="delete">Delete</string>
+    <string name="delete_alarm">Do you really want to delete this alarm?</string>
+    <string name="delete_location">Do you really want to delete this location?</string>
 </resources>

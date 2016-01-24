@@ -6,6 +6,7 @@ import com.google.android.gms.maps.model.LatLng;
  * Created by marc-antoinehinse on 2016-01-24.
  */
 public class Location {
+    private long id;
     private String locationName;
     private LatLng location;
 
@@ -32,5 +33,17 @@ public class Location {
 
     public void setLocationName(String locationName) {
         this.locationName = locationName;
+    }
+
+    public long getId() {
+        return id;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public String getLocationName() {
+        return locationName;
     }
 }

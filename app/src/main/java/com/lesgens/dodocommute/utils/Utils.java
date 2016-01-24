@@ -36,6 +36,6 @@ public class Utils {
     }
 
     public static String getGoogleMapImageUrl(final LatLng location) {
-        return "http://maps.googleapis.com/maps/api/staticmap?center="  + location.latitude + "," + location.longitude + "&zoom=13&scale=false&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7C%7C" + location.latitude + "," + location.longitude;
+        return "http://maps.googleapis.com/maps/api/staticmap?center="  + location.latitude + "," + location.longitude + "&zoom=18&scale=false&size=600x300&maptype=roadmap&format=png&visual_refresh=true&markers=size:mid%7Ccolor:0xff0000%7C%7C" + location.latitude + "," + location.longitude;
     }
 }
