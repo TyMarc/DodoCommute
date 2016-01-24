@@ -154,6 +154,7 @@ public class WhereYouGoFragment extends Fragment implements OnMapReadyCallback, 
                                 .title(getActivity().getResources().getString(R.string.destination)));
                         if (getActivity() instanceof WizardActivity) {
                             ((WizardActivity) getActivity()).getAlarmProfile().setDestination(latLng);
+                            ((WizardActivity) getActivity()).nextPage();
                         }
                     }
                 })

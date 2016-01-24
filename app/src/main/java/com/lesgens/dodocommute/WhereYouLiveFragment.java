@@ -161,6 +161,7 @@ public class WhereYouLiveFragment extends Fragment implements OnMapReadyCallback
                                 .title(getActivity().getResources().getString(R.string.origin)));
                         if(getActivity() instanceof WizardActivity) {
                             ((WizardActivity) getActivity()).getAlarmProfile().setOrigin(latLng);
+                            ((WizardActivity) getActivity()).nextPage();
                         }
                     }
                 })
